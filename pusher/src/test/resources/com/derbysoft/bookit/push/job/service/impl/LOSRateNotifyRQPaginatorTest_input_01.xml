@@ -1,0 +1,27 @@
+<list>
+    <com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+        <rateAmountMessages>
+            <hotelCode>Hotel-A</hotelCode>
+        </rateAmountMessages>
+    </com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+    <com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+        <rateAmountMessages>
+            <hotelCode>Hotel-A</hotelCode>
+        </rateAmountMessages>
+    </com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+    <com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+        <rateAmountMessages>
+            <hotelCode>Hotel-A</hotelCode>
+        </rateAmountMessages>
+    </com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+    <com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+        <rateAmountMessages>
+            <hotelCode>Hotel-A</hotelCode>
+        </rateAmountMessages>
+    </com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+    <com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+        <rateAmountMessages>
+            <hotelCode>Hotel-A</hotelCode>
+        </rateAmountMessages>
+    </com.derbysoft.bookit.dto.OTAHotelRateAmountNotifRQ>
+</list>

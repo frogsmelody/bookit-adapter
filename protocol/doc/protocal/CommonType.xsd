@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="OTAMessage" abstract="true">
+        <xs:sequence>
+            <xs:element name="POS" type="POS"/>
+        </xs:sequence>
+        <xs:attribute name="TimeStamp" type="xs:string"/>
+        <xs:attribute name="Target" type="xs:string"/>
+        <xs:attribute name="Version" type="xs:string"/>
+        <xs:attribute name="PrimaryLangID" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="POS">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Source" type="Source"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Source">
+        <xs:sequence>
+            <xs:element name="RequestorID" type="RequestorID"/>
+            <xs:element name="BookingChannel" type="BookingChannel"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="RequestorID">
+        <xs:attribute name="Type" type="xs:string"/>
+        <xs:attribute name="ID" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType name="BookingChannel">
+        <xs:sequence>
+            <xs:element name="CompanyName" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="Type" type="xs:string"/>
+        <xs:attribute name="Primary" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType name="StatusApplicationControl">
+        <xs:attribute name="Start" type="xs:string"/>
+        <xs:attribute name="End" type="xs:string"/>
+        <xs:attribute name="RatePlanCodeType" type="xs:string"/>
+        <xs:attribute name="RatePlanCode" type="xs:string"/>
+        <xs:attribute name="InvCodeApplication" type="xs:string"/>
+        <xs:attribute name="InvCode" type="xs:string"/>
+        <xs:attribute name="Duration" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>

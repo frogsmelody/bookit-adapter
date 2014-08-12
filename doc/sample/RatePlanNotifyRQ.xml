@@ -1,0 +1,48 @@
+﻿<OTA_HotelRatePlanNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05"
+                          TimeStamp="2011-08-09T16:24:45+00:00" Target="PROD" Version="1.000"
+                          PrimaryLangID="en-us">
+    <POS>
+        <Source>
+            <RequestorID Type="PROD" ID="Xyz Travel"/>
+            <BookingChannel Type="2" Primary="true">
+                <CompanyName>Xyz Travel</CompanyName>
+            </BookingChannel>
+        </Source>
+    </POS>
+    <RatePlans HotelCode="10001">
+        <RatePlan RatePlanCode="Rack" RatePlanNotifType="Delta" Start="2013-01-01"
+                  End="2013-03-31">
+            <UniqueID Type="16" ID="1"/>
+            <DestinationSystemsCode>
+                <DestinationSystemCode>330</DestinationSystemCode>
+            </DestinationSystemsCode>
+            <Rates>
+                <Rate CurrencyCode="USD" Mon="true" Tue="true" Weds="true" Thur="true"
+                      Fri="true" Sat="false" Sun="false" InvTypeCode="King"/>
+                <BaseByGuestAmts>
+                    <BaseByGuestAmt NumberOfGuests="1" AgeQualifyingCode="10"
+                                    AmountBeforeTax="100.00" AmountAfterTax="120.00"></BaseByGuestAmt>
+                    <BaseByGuestAmt NumberOfGuests="2" AgeQualifyingCode="10"
+                                    AmountBeforeTax="110.00" AmountAfterTax="130.00"/>
+                </BaseByGuestAmts>
+            </Rates>
+        </RatePlan>
+    </RatePlans>
+    <RatePlan RatePlanCode="Rack" RatePlanNotifType="Delta" Start="2013-01-01"
+              End="2013-03-31">
+        <UniqueID Type="16" ID="2"/>
+        <DestinationSystemsCode>
+            <DestinationSystemCode>330</DestinationSystemCode>
+        </DestinationSystemsCode>
+        <Rates>
+            <Rate CurrencyCode="USD" Mon="false" Tue="false" Weds="false" Thur="false"
+                  Fri="false" Sat="true" Sun="true" InvTypeCode="King"/>
+            <BaseByGuestAmts>
+                <BaseByGuestAmt NumberOfGuests="1" AgeQualifyingCode="10"
+                                AmountBeforeTax="200.00" AmountAfterTax="220.00"/>
+                <BaseByGuestAmt NumberOfGuests="2" AgeQualifyingCode="10"
+                                AmountBeforeTax="210.00" AmountAfterTax="230.00"/>
+            </BaseByGuestAmts>
+        </Rates>
+    </RatePlan>
+</OTA_HotelRatePlanNotifRQ>

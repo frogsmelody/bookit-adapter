@@ -1,0 +1,30 @@
+{"error": false, "rateChangePushLogDetails": [
+    {
+        "id":1,
+        "checkIn": "2014-03-25",
+        "detail": "",
+        "direction": "FROM_CHANNEL",
+        "pushSucceed": false
+    },
+    {
+        "id":2,
+        "checkIn": "2014-03-26",
+        "detail": "",
+        "direction": "FROM_CHANNEL",
+        "pushSucceed": false
+    },
+    {
+        "id":3,
+        "checkIn": "2014-03-27",
+        "detail": "",
+        "direction": "FROM_CHANNEL",
+        "pushSucceed": false
+    },
+    {
+        "id":4,
+        "checkIn": "2014-03-28",
+        "detail": "",
+        "direction": "FROM_CHANNEL",
+        "pushSucceed": true
+    }
+]}

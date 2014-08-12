@@ -1,0 +1,14 @@
+{"header": {
+    "destination": "cdsKey",
+    "source": "Bookit"
+}, "losRateChangeRQ": {
+    "dateRange": {
+        "end": "2012-01-03",
+        "start": "2012-01-01"
+    },
+    "hotelCode": "Hotel-A",
+    "losList": [2, 3, 5],
+    "ratePlansList": ["RatePlan-A", "RatePlan-B", "RatePlan-C"],
+    "roomTypesList": ["RoomType-A", "RoomType-B", "RoomType-C"],
+    "type": "Delta"
+}, "schema": {}}

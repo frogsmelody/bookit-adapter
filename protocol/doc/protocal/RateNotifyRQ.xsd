@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation="CommonType.xsd"/>
+
+    <xs:element name="OTA_HotelRateAmountNotifRQ">
+        <xs:complexType>
+            <xs:complexContent mixed="false">
+                <xs:extension base="OTAMessage">
+                    <xs:sequence>
+                        <xs:element name="POS" type="POS"/>
+                        <xs:element name="RateAmountMessages" type="RateAmountMessages"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OTA_HotelRateAmountNotifRS">
+        <xs:complexType>
+            <xs:complexContent mixed="false">
+                <xs:extension base="OTAMessage">
+                    <xs:sequence>
+                        <xs:element name="Success" type="Success"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="RateAmountMessages">
+        <xs:sequence>
+            <xs:element name="RateAmountMessage" type="RateAmountMessage" minOccurs="0" maxOccurs="unbounded"/>
+
+        </xs:sequence>
+        <xs:attribute name="HotelCode" type="xs:string"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="RateAmountMessage">
+        <xs:sequence>
+            <xs:element name="StatusApplicationControl" type="StatusApplicationControl"/>
+            <xs:element name="Rates" type="Rates"/>
+        </xs:sequence>
+        <xs:attribute name="LocatorID" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="Rates">
+        <xs:sequence>
+            <xs:element name="Rate" type="Rate"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Rate">
+        <xs:sequence>
+            <xs:element name="BaseByGuestAmts" type="BaseByGuestAmts"/>
+        </xs:sequence>
+        <xs:attribute name="NumberOfUnits" type="xs:int"/>
+        <xs:attribute name="RateTimeUnit" type="xs:int"/>
+        <xs:attribute name="DecimalPlaces" type="xs:int"/>
+    </xs:complexType>
+    <xs:complexType name="BaseByGuestAmts">
+        <xs:sequence>
+            <xs:element name="BaseByGuestAmt" type="BaseByGuestAmt" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="BaseByGuestAmt">
+        <xs:attribute name="AmountBeforeTax" type="xs:decimal"/>
+        <xs:attribute name="CurrencyCode" type="xs:string"/>
+        <xs:attribute name="NumberOfGuests" type="xs:int"/>
+    </xs:complexType>
+    <xs:complexType name="Success"/>
+</xs:schema>

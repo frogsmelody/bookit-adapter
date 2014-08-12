@@ -1,0 +1,131 @@
+{"2012-01-01": {
+    "pOS": {
+        "source": {
+            "bookingChannel": {
+                "primary": "true",
+                "type": "2"
+            },
+            "requestorID": {
+                "type": "PROD"
+            }
+        }
+    },
+    "primaryLangID": "en-us",
+    "rateAmountMessages": {
+        "hotelCode": "Hotel-A",
+        "rateAmountMessage": [
+            {
+                "rates": {
+                    "rate": [
+                        {
+                            "baseByGuestAmts": {
+                                "baseByGuestAmt": [
+                                    {
+                                        "amountBeforeTax": "5512",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 1
+                                    },
+                                    {
+                                        "amountBeforeTax": "5522",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 2
+                                    },
+                                    {
+                                        "amountBeforeTax": "5532",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 3
+                                    },
+                                    {
+                                        "amountBeforeTax": "5542",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 4
+                                    }
+                                ]
+                            },
+                            "decimalPlaces": 2,
+                            "numberOfUnits": 1,
+                            "rateTimeUnit": "Day",
+                            "unitMultiplier": 1
+                        }
+                    ]
+                },
+                "statusApplicationControl": {
+                    "duration": "P3D",
+                    "end": "2012-01-01",
+                    "invCode": "Roomtype-A",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            }
+        ]
+    },
+    "target": "PROD",
+    "version": "1.000"
+}, "2012-01-02": {
+    "pOS": {
+        "source": {
+            "bookingChannel": {
+                "primary": "true",
+                "type": "2"
+            },
+            "requestorID": {
+                "type": "PROD"
+            }
+        }
+    },
+    "primaryLangID": "en-us",
+    "rateAmountMessages": {
+        "hotelCode": "Hotel-A",
+        "rateAmountMessage": [
+            {
+                "rates": {
+                    "rate": [
+                        {
+                            "baseByGuestAmts": {
+                                "baseByGuestAmt": [
+                                    {
+                                        "amountBeforeTax": "5512",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 1
+                                    },
+                                    {
+                                        "amountBeforeTax": "5522",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 2
+                                    },
+                                    {
+                                        "amountBeforeTax": "5532",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 3
+                                    },
+                                    {
+                                        "amountBeforeTax": "5542",
+                                        "currencyCode": "EUR",
+                                        "numberOfGuests": 4
+                                    }
+                                ]
+                            },
+                            "decimalPlaces": 2,
+                            "numberOfUnits": 1,
+                            "rateTimeUnit": "Day",
+                            "unitMultiplier": 1
+                        }
+                    ]
+                },
+                "statusApplicationControl": {
+                    "duration": "P7D",
+                    "end": "2012-01-02",
+                    "invCode": "Roomtype-A",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-02"
+                }
+            }
+        ]
+    },
+    "target": "PROD",
+    "version": "1.000"
+}}

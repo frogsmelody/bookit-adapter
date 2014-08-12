@@ -1,0 +1,94 @@
+[
+    {
+        "cancelPolicy": "1D100P_100P",
+        "checkInDate": "2012-01-01",
+        "currency": "EUR",
+        "losRatesList": [
+            {
+                "inventory": 3,
+                "los": 3,
+                "ratesList": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "occupancyRatesList": [
+                            {
+                                "adult": 1,
+                                "amountBeforeTax": 55.12,
+                                "child": 0
+                            },
+                            {
+                                "adult": 2,
+                                "amountBeforeTax": 55.22,
+                                "child": 0
+                            },
+                            {
+                                "adult": 3,
+                                "amountBeforeTax": 55.32,
+                                "child": 0
+                            },
+                            {
+                                "adult": 4,
+                                "amountBeforeTax": 55.42,
+                                "child": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "inventory": 0,
+                "los": 2,
+                "ratesList": []
+            }
+        ],
+        "ratePlanCode": "RatePlan-A",
+        "roomTypeCode": "Roomtype-A"
+    },
+    {
+        "cancelPolicy": "1D100P_100P",
+        "checkInDate": "2012-01-02",
+        "currency": "EUR",
+        "losRatesList": [
+            {
+                "inventory": 4,
+                "los": 4,
+                "ratesList": []
+            },
+            {
+                "inventory": 3,
+                "los": 7,
+                "ratesList": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "occupancyRatesList": [
+                            {
+                                "adult": 1,
+                                "amountBeforeTax": 55.12,
+                                "child": 0
+                            },
+                            {
+                                "adult": 2,
+                                "amountBeforeTax": 55.22,
+                                "child": 0
+                            },
+                            {
+                                "adult": 3,
+                                "amountBeforeTax": 55.32,
+                                "child": 0
+                            },
+                            {
+                                "adult": 4,
+                                "amountBeforeTax": 55.42,
+                                "child": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ratePlanCode": "RatePlan-A",
+        "roomTypeCode": "Roomtype-A"
+    }
+]

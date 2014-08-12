@@ -1,0 +1,7 @@
+{"getKeysRQ": {
+    "hotelsList": ["Hotel-A", "Hotel-B", "Hotel-C"],
+    "level": "RATE"
+}, "header": {
+    "destination": "Synchronizer",
+    "source": "Bookit"
+}, "schema": {}}

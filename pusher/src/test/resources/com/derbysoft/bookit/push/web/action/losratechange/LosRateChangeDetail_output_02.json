@@ -1,0 +1,24 @@
+{"message": {
+    "losRateChange": {
+        "cancelPolicy": "",
+        "checkInLOSRates": [],
+        "currency": "",
+        "hotelCode": "",
+        "id": 0,
+        "ratePlanCode": "",
+        "roomTypeCode": ""
+    },
+    "paginater": {
+        "currentPage": 1,
+        "firstResult": 0,
+        "maxResults": 20,
+        "objects": [],
+        "pageItems": [],
+        "pageNo": 1,
+        "pageSize": 20,
+        "sortDirection": "",
+        "sortField": "",
+        "totalCount": 0,
+        "totalPage": 0
+    }
+}, "result": true}

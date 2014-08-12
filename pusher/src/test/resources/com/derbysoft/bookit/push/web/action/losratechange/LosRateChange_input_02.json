@@ -1,0 +1,257 @@
+{"message": {
+    "losRateChange": {
+        "cancelPolicy": "1N",
+        "checkInLOSRates": [
+            {
+                "checkIn": "2012-01-01",
+                "losRatesMap": {
+                    "3": {
+                        "inventory": 2,
+                        "los": "3",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "5": {
+                        "inventory": 2,
+                        "los": "5",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "checkIn": "2012-01-02",
+                "losRatesMap": {
+                    "2": {
+                        "inventory": 2,
+                        "los": "2",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "5": {
+                        "inventory": 2,
+                        "los": "5",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "checkIn": "2012-01-03",
+                "losRatesMap": {
+                    "2": {
+                        "inventory": 2,
+                        "los": "2",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "3": {
+                        "inventory": 2,
+                        "los": "3",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "checkIn": "2012-01-01",
+                "losRatesMap": {
+                    "3": {
+                        "inventory": 2,
+                        "los": "3",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "5": {
+                        "inventory": 2,
+                        "los": "5",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "checkIn": "2012-01-02",
+                "losRatesMap": {
+                    "2": {
+                        "inventory": 2,
+                        "los": "2",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "5": {
+                        "inventory": 2,
+                        "los": "5",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "checkIn": "2012-01-03",
+                "losRatesMap": {
+                    "2": {
+                        "inventory": 2,
+                        "los": "2",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    },
+                    "3": {
+                        "inventory": 2,
+                        "los": "3",
+                        "rateAvails": [
+                            {
+                                "doubleRate": 385.25,
+                                "quadrupleRate": 412.27,
+                                "singleRate": 285.24,
+                                "trebleRate": 399.26
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "currency": "USD",
+        "hotelCode": "Hotel-A",
+        "id": 0,
+        "ratePlanCode": "RatePlan-A",
+        "roomTypeCode": "RoomType-A"
+    },
+    "paginater": {
+        "currentPage": 1,
+        "firstResult": 0,
+        "maxResults": 20,
+        "objects": [
+            {
+                "checkIn": "2012-01-01",
+                "inventory": 2,
+                "los": "3",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            {
+                "checkIn": "2012-01-02",
+                "inventory": 2,
+                "los": "2",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            {
+                "checkIn": "2012-01-03",
+                "inventory": 2,
+                "los": "2",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            {
+                "checkIn": "2012-01-03",
+                "inventory": 2,
+                "los": "3",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "trebleRate": 399.26
+                    }
+                ]
+            }
+        ],
+        "pageItems": [
+            {
+                "type": "PAGE",
+                "value": 1
+            }
+        ],
+        "pageNo": 1,
+        "pageSize": 20,
+        "sortDirection": "",
+        "sortField": "",
+        "totalCount": 4,
+        "totalPage": 1
+    }
+}, "result": true}

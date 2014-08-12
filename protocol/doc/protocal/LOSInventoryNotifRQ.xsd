@@ -1,0 +1,31 @@
+<xs:schema elementFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation="CommonType.xsd"/>
+
+    <xs:element name="OTA_HotelAvailNotifRQ">
+        <xs:complexType>
+            <xs:complexContent mixed="false">
+                <xs:extension base="OTAMessage">
+                    <xs:sequence>
+                        <xs:element name="AvailStatusMessages" type="AvailStatusMessagesType"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="AvailStatusMessagesType">
+        <xs:sequence>
+            <xs:element name="AvailStatusMessage" type="AvailStatusMessageType" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="HotelCode"/>
+    </xs:complexType>
+    <xs:complexType name="AvailStatusMessageType">
+        <xs:sequence>
+            <xs:element name="StatusApplicationControl" type="StatusApplicationControl"/>
+        </xs:sequence>
+        <xs:attribute name="BookingLimitMessageType" type="xs:string"/>
+        <xs:attribute name="BookingLimit" type="xs:int"/>
+    </xs:complexType>
+</xs:schema>

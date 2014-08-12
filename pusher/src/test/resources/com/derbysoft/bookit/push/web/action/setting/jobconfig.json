@@ -1,0 +1,16 @@
+[
+    {
+        "perHour": "*",
+        "perMinute": "10",
+        "scheduleStatus": "RUNNING",
+        "startHour": "*",
+        "startMinute": "0"
+    },
+    {
+        "perHour": "*",
+        "perMinute": "1",
+        "scheduleStatus": "RUNNING",
+        "startHour": "*",
+        "startMinute": "*"
+    }
+]

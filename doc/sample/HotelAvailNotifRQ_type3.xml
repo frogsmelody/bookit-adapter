@@ -1,0 +1,38 @@
+﻿<OTA_HotelAvailNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05"
+                       TimeStamp="2011-08-09T16:24:45+00:00" EchoToken="098098AF" Target="PROD"
+                       Version="1.000" PrimaryLangID="en-us">
+    <POS>
+        <Source>
+            <RequestorID Type="PROD" ID="Xyz Travel"/>
+            <BookingChannel Type="2" Primary="true">
+                <CompanyName>Xyz Travel</CompanyName>
+            </BookingChannel>
+        </Source>
+    </POS>
+    <AvailStatusMessages HotelCode="10001">
+        <AvailStatusMessage>
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-12"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode"
+                                      InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+            <LengthsOfStay>
+                <LengthofStay MinMaxMesssageType="SetMinLos" TimeUnit="Day" Time="2"/>
+                <LengthofStay MinMaxMesssageType="SetMaxLos" TimeUnit="Day" Time="5"/>
+            </LengthsOfStay>
+        </AvailStatusMessage>
+        <AvailStatusMessage>
+            <StatusApplicationControl Override="1" Start="2011-09-11" End="2011-09-12"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode"
+                                      InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="2"/>
+            <RestrictionStatus Restriction="Arrival" Status="Close"/>
+        </AvailStatusMessage>
+        <AvailStatusMessage>
+            <StatusApplicationControl Override="1" Start="2011-09-11" End="2011-09-12"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode"
+                                      InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="3"/>
+            <RestrictionStatus Restriction="Departure" Status="Close"/>
+        </AvailStatusMessage>
+    </AvailStatusMessages>
+</OTA_HotelAvailNotifRQ>

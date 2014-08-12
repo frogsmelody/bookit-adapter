@@ -1,0 +1,78 @@
+﻿<OTA_HotelRateAmountNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05"
+                            TimeStamp="2011-08-09T16:24:45+00:00" Target="PROD" Version="1.000"
+                            PrimaryLangID="en-us">
+    <POS>
+        <Source>
+            <RequestorID Type="PROD" ID="Xyz Travel"/>
+            <BookingChannel Type="2" Primary="true">
+                <CompanyName>Xyz Travel</CompanyName>
+            </BookingChannel>
+        </Source>
+    </POS>
+    <RateAmountMessages HotelCode="10001">
+        <RateAmountMessage LocatorID="1">
+            <StatusApplicationControl Override="1" Start="2011-08-25" End="2011-08-28"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BESTSALE"
+                                      InvCodeApplication="InvCode"
+                                      InvCode="GO" IsRoom="1"/>
+            <Rates>
+                <Rate NumberOfUnits="1" RateTimeUnit="Day" UnitMultiplier="1"
+                      DecimalPlaces="2">
+                    <BaseByGuestAmts>
+                        <BaseByGuestAmt AmountBeforeTax="4938" CurrencyCode="USD"
+                                        NumberOfGuests="1"/>
+                        <BaseByGuestAmt AmountBeforeTax="4938" CurrencyCode="USD"
+                                        NumberOfGuests="2"/>
+                        <BaseByGuestAmt AmountBeforeTax="6682" CurrencyCode="USD"
+                                        NumberOfGuests="3"/>
+                        <BaseByGuestAmt AmountBeforeTax="8424" CurrencyCode="USD"
+                                        NumberOfGuests="4"/>
+                    </BaseByGuestAmts>
+                </Rate>
+            </Rates>
+        </RateAmountMessage>
+
+        <RateAmountMessage LocatorID="2">
+            <StatusApplicationControl Override="1" Start="2011-08-25" End="2011-08-26"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BESTSALE"
+                                      InvCodeApplication="InvCode"
+                                      InvCode="DELUXE" IsRoom="1"/>
+            <Rates>
+                <Rate NumberOfUnits="1" RateTimeUnit="Day" UnitMultiplier="1"
+                      DecimalPlaces="2">
+                    <BaseByGuestAmts>
+                        <BaseByGuestAmt AmountBeforeTax="3776" CurrencyCode="USD"
+                                        NumberOfGuests="1"/>
+                        <BaseByGuestAmt AmountBeforeTax="3776" CurrencyCode="USD"
+                                        NumberOfGuests="2"/>
+                        <BaseByGuestAmt AmountBeforeTax="5520" CurrencyCode="USD"
+                                        NumberOfGuests="3"/>
+                        <BaseByGuestAmt AmountBeforeTax="7262" CurrencyCode="USD"
+                                        NumberOfGuests="4"/>
+                    </BaseByGuestAmts>
+                </Rate>
+            </Rates>
+        </RateAmountMessage>
+        <RateAmountMessage LocatorID="3">
+            <StatusApplicationControl Override="1" Start="2011-08-25" End="2011-08-26"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="SUMMERD"
+                                      InvCodeApplication="InvCode"
+                                      InvCode="GO" IsRoom="1"/>
+            <Rates>
+                <Rate NumberOfUnits="1" RateTimeUnit="Day" UnitMultiplier="1"
+                      DecimalPlaces="2">
+                    <BaseByGuestAmts>
+                        <BaseByGuestAmt AmountBeforeTax="7055" CurrencyCode="USD"
+                                        NumberOfGuests="1"/>
+                        <BaseByGuestAmt AmountBeforeTax="7055" CurrencyCode="USD"
+                                        NumberOfGuests="2"/>
+                        <BaseByGuestAmt AmountBeforeTax="9545" CurrencyCode="USD"
+                                        NumberOfGuests="3"/>
+                        <BaseByGuestAmt AmountBeforeTax="12035" CurrencyCode="USD"
+                                        NumberOfGuests="4"/>
+                    </BaseByGuestAmts>
+                </Rate>
+            </Rates>
+        </RateAmountMessage>
+    </RateAmountMessages>
+</OTA_HotelRateAmountNotifRQ>

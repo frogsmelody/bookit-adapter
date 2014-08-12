@@ -1,0 +1,72 @@
+<OTA_HotelAvailNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05" TimeStamp="2011-08-09T16:24:45+00:00" Target="PROD" Version="1.000" PrimaryLangID="en-us">
+    <AvailStatusMessages HotelCode="10001">
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="5">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2012-08-12" Duration="P1D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="6">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-13" Duration="P2D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="9">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-14" Duration="P3D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="3">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-15" Duration="P4D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="4">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-16" Duration="P5D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="6">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-17" Duration="P6D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="8">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-18" Duration="P7D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="5">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2012-08-21" Duration="P1D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="6">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-22" Duration="P2D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="9">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-23" Duration="P3D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="3">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-24" Duration="P4D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="4">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-25" Duration="P5D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="6">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-16" Duration="P6D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="8">
+            <StatusApplicationControl Override="1" Start="2011-08-20" End="2011-08-27" Duration="P7D" RatePlanCodeType="RatePlanCode" RatePlanCode="BEST"  InvCodeApplication="InvCode" InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+    </AvailStatusMessages>
+</OTA_HotelAvailNotifRQ>

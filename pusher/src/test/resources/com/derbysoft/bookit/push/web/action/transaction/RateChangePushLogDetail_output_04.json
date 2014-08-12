@@ -1,0 +1,40 @@
+{"message": {
+    "paginater": {
+        "currentPage": 1,
+        "firstResult": 0,
+        "maxResults": 20,
+        "objects": [
+            {
+                "checkIn": "2014-03-28",
+                "detail": "",
+                "direction": "FROM_CHANNEL",
+                "id": 4,
+                "pushSucceed": true
+            }
+        ],
+        "pageItems": [
+            {
+                "type": "PAGE",
+                "value": 1
+            }
+        ],
+        "pageNo": 1,
+        "pageSize": 20,
+        "sortDirection": "",
+        "sortField": "",
+        "totalCount": 1,
+        "totalPage": 1
+    },
+    "rateChangePushLog": {
+        "end": "",
+        "error": false,
+        "errorMessage": "",
+        "hotelCode": "",
+        "id": 0,
+        "ratePlanCode": "",
+        "roomTypeCode": "",
+        "start": "",
+        "taskId": "",
+        "timeSpan": 0
+    }
+}, "result": true}

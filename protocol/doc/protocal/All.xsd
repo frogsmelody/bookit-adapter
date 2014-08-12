@@ -1,0 +1,10 @@
+<xs:schema elementFormDefault="unqualified"
+           targetNamespace="http://www.opentravel.org/OTA/2003/05"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:import schemaLocation="LOSRateNotifRQ.xsd"/>
+    <xs:import schemaLocation="LOSRateNotifRS.xsd"/>
+
+    <xs:import schemaLocation="LOSInventoryNotifRQ.xsd"/>
+    <xs:import schemaLocation="LOSInventoryNotifRS.xsd"/>
+</xs:schema>

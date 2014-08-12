@@ -1,0 +1,37 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Header>
+        <Interface ChannelIdentifierId="BookIt.com XML4" Version="2011A" Interface="SourceSys XML"
+                   xmlns="http://www.bookit.com/api/Documentation/XML/OTA/4/2011A/">
+            <ComponentInfo Id="1727782" User="Hy4TpT3ri" Pwd="4lFAwE5t" ComponentType="Hotel"/>
+        </Interface>
+    </soap-env:Header>
+    <soap-env:Body RequestId="20110809162446WAzE8nRi0H" Transaction="HotelRateAmountNotifRQ">
+        <OTA_HotelRateAmountNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05" TimeStamp="2011-08-09T16:24:45+00:00" Target="PROD" Version="1.000" PrimaryLangID="en-us">
+            <POS>
+                <Source>
+                    <RequestorID Type="PROD" ID="Xyz Travel"/>
+                    <BookingChannel Type="2" Primary="true">
+                        <CompanyName>Xyz Travel</CompanyName>
+                    </BookingChannel>
+                </Source>
+            </POS>
+            <RateAmountMessages HotelCode="CANCU">
+                <RateAmountMessage LocatorID="1">
+                    <StatusApplicationControl Override="1" InvCode="2VWD" InvCodeApplication="InvCode"
+                                              RatePlanCode="80862_WADP" RatePlanCodeType="RatePlanCode" End="2014-07-29"
+                                              Start="2014-07-29" IsRoom="1"/>
+                    <Rates>
+                        <Rate DecimalPlaces="2" UnitMultiplier="1" RateTimeUnit="Day" NumberOfUnits="1">
+                            <BaseByGuestAmts>
+                                <BaseByGuestAmt NumberOfGuests="1" CurrencyCode="USD" AmountBeforeTax="18936"/>
+                                <BaseByGuestAmt NumberOfGuests="2" CurrencyCode="USD" AmountBeforeTax="18936"/>
+                                <BaseByGuestAmt NumberOfGuests="3" CurrencyCode="USD" AmountBeforeTax="21396"/>
+                                <BaseByGuestAmt NumberOfGuests="4" CurrencyCode="USD" AmountBeforeTax="23856"/>
+                            </BaseByGuestAmts>
+                        </Rate>
+                    </Rates>
+                </RateAmountMessage>
+            </RateAmountMessages>
+        </OTA_HotelRateAmountNotifRQ>
+    </soap-env:Body>
+</soap-env:Envelope>

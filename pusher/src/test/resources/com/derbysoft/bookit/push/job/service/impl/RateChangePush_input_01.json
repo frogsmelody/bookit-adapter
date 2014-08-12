@@ -1,0 +1,30 @@
+{
+    "cancelPolicy": "1N",
+    "checkInLosRates": [
+        {
+            "checkIn": "2012-01-01",
+            "losRatesMap": {
+                "5": {
+                    "inventory": 2,
+                    "los": "5",
+                    "rateAvails": [
+                        {
+                            "start": 0,
+                            "end": 4,
+                            "doubleRate": 385.25,
+                            "quadrupleRate": 412.27,
+                            "singleRate": 285.24,
+
+                            "trebleRate": 399.26
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "currency": "USD",
+    "hotelCode": "Hotel-A",
+    "losRateChangeText": [],
+    "ratePlanCode": "RatePlan-A",
+    "roomTypeCode": "RoomType-A"
+}

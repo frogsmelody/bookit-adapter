@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean id="hotelRepository"
+          class="com.derbysoft.bookit.common.repository.impl.HotelRepositoryImpl">
+        <property name="hotelMappingCache" ref="hotelCache"/>
+    </bean>
+
+    <bean id="systemConfigRepository" class="com.derbysoft.bookit.common.repository.impl.SystemConfigRepositoryImpl">
+        <property name="systemConfigMappingCache" ref="systemConfigMappingCache"/>
+    </bean>
+
+    <bean id="hotelCache" class="com.derbysoft.ccs.core.MappingCache">
+        <constructor-arg index="0" value="bookit_sync_hotel"/>
+        <constructor-arg index="1" value="com.derbysoft.bookit.common.ccs.Hotel"/>
+    </bean>
+
+    <bean id="systemConfigMappingCache" class="com.derbysoft.ccs.core.MappingCache">
+        <constructor-arg index="0" value="bookit_adapter_system_config"/>
+        <constructor-arg index="1" value="com.derbysoft.bookit.common.ccs.SystemConfig"/>
+    </bean>
+
+    <bean class="com.derbysoft.ccs.core.TopicConsumer">
+        <constructor-arg index="0" value="${ccs.consumer.id}"/>
+        <constructor-arg index="1" value="${ccs.zookeeper.connect}"/>
+        <constructor-arg index="2" value="${ccs.cache.file.dir}"/>
+        <constructor-arg index="3" value="${ccs.url}"/>
+        <constructor-arg index="4">
+            <list>
+                <ref bean="hotelCache"/>
+                <ref bean="systemConfigMappingCache"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

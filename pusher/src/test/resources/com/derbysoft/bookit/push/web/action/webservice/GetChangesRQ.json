@@ -1,0 +1,7 @@
+{"getChangesRQ": {
+    "hotel": "Hotel-A",
+    "keysList": ["Key-1", "Key-3", "Key-5"]
+}, "header": {
+    "destination": "Synchronizer",
+    "source": "Bookit"
+}, "schema": {}}

@@ -1,0 +1,20 @@
+﻿<OTA_HotelAvailNotifRQ xmlns="http://www.opentravel.org/OTA/2003/05"
+                       TimeStamp="2011-08-09T16:24:45+00:00" Target="PROD" Version="1.000"
+                       PrimaryLangID="en-us">
+    <POS>
+        <Source>
+            <RequestorID Type="PROD" ID="Xyz Travel"/>
+            <BookingChannel Type="2" Primary="true">
+                <CompanyName>Xyz Travel</CompanyName>
+            </BookingChannel>
+        </Source>
+    </POS>
+    <AvailStatusMessages HotelCode="10001">
+        <AvailStatusMessage BookingLimitMessageType="SetLimit" BookingLimit="10">
+            <StatusApplicationControl Override="1" Start="2011-08-11" End="2011-08-12"
+                                      RatePlanCodeType="RatePlanCode" RatePlanCode="BEST" InvCodeApplication="InvCode"
+                                      InvCode="CLA2Q" IsRoom="1"/>
+            <UniqueID Type="16" ID="1"/>
+        </AvailStatusMessage>
+    </AvailStatusMessages>
+</OTA_HotelAvailNotifRQ>

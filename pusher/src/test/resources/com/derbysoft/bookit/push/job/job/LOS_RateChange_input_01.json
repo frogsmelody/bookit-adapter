@@ -1,0 +1,5 @@
+{"checkInLOSRates": [], "currency": "EUR", "hotelCode": "Hotel-01", "losRateChangeText": [
+    {
+        "losRatesText": "[{\"checkIn\":\"2012-01-01\",\"losRatesMap\":{\"2\":{\"inventory\":5,\"los\":\"2\",\"rateAvails\":[{\"doubleRate\":52.625,\"trebleRate\":60.25}]}}},{\"checkIn\":\"2012-01-02\",\"losRatesMap\":{\"2\":{\"inventory\":5,\"los\":\"2\",\"rateAvails\":[{\"doubleRate\":52.625,\"trebleRate\":60.25}]},\"3\":{\"inventory\":3,\"los\":\"3\",\"rateAvails\":[{\"doubleRate\":55.22,\"quadrupleRate\":55.42,\"singleRate\":55.12,\"trebleRate\":55.32}]},\"5\":{\"inventory\":3,\"los\":\"5\",\"rateAvails\":[{\"doubleRate\":55.22,\"quadrupleRate\":55.42,\"singleRate\":55.12,\"trebleRate\":55.32}]}}},{\"checkIn\":\"2012-01-03\",\"losRatesMap\":{\"2\":{\"inventory\":5,\"los\":\"2\",\"rateAvails\":[{\"doubleRate\":52.625,\"trebleRate\":60.25}]},\"3\":{\"inventory\":3,\"los\":\"3\",\"rateAvails\":[{\"doubleRate\":55.22,\"quadrupleRate\":55.42,\"singleRate\":55.12,\"trebleRate\":55.32}]}}}]"
+    }
+], "ratePlanCode": "RatePlan-1", "roomTypeCode": "Roomtype-1"}

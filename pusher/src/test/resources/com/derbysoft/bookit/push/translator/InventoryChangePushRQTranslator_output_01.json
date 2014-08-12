@@ -1,0 +1,171 @@
+{"2012-01-01": {
+    "availStatusMessages": {
+        "availStatusMessage": [
+            {
+                "bookingLimit": 2,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P1D",
+                    "end": "2012-01-01",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            },
+            {
+                "bookingLimit": 6,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P2D",
+                    "end": "2012-01-01",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            },
+            {
+                "bookingLimit": 9,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P3D",
+                    "end": "2012-01-01",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            },
+            {
+                "bookingLimit": 8,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P4D",
+                    "end": "2012-01-01",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            },
+            {
+                "bookingLimit": 5,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P5D",
+                    "end": "2012-01-01",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-01"
+                }
+            }
+        ],
+        "hotelCode": "Hotel-A"
+    },
+    "pOS": {
+        "source": {
+            "bookingChannel": {
+                "primary": "true",
+                "type": "2"
+            },
+            "requestorID": {
+                "type": "PROD"
+            }
+        }
+    },
+    "primaryLangID": "en-us",
+    "target": "PROD",
+    "version": "1.000"
+}, "2012-01-05": {
+    "availStatusMessages": {
+        "availStatusMessage": [
+            {
+                "bookingLimit": 2,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P1D",
+                    "end": "2012-01-05",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-05"
+                }
+            },
+            {
+                "bookingLimit": 6,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P2D",
+                    "end": "2012-01-05",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-05"
+                }
+            },
+            {
+                "bookingLimit": 9,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P3D",
+                    "end": "2012-01-05",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-05"
+                }
+            },
+            {
+                "bookingLimit": 8,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P4D",
+                    "end": "2012-01-05",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-05"
+                }
+            },
+            {
+                "bookingLimit": 6,
+                "bookingLimitMessageType": "SetLimit",
+                "statusApplicationControl": {
+                    "duration": "P5D",
+                    "end": "2012-01-05",
+                    "invCode": "RoomType-B",
+                    "invCodeApplication": "InvCode",
+                    "ratePlanCode": "RatePlan-A",
+                    "ratePlanCodeType": "RatePlanCode",
+                    "start": "2012-01-05"
+                }
+            }
+        ],
+        "hotelCode": "Hotel-A"
+    },
+    "pOS": {
+        "source": {
+            "bookingChannel": {
+                "primary": "true",
+                "type": "2"
+            },
+            "requestorID": {
+                "type": "PROD"
+            }
+        }
+    },
+    "primaryLangID": "en-us",
+    "target": "PROD",
+    "version": "1.000"
+}}

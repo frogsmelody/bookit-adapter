@@ -1,0 +1,62 @@
+<xs:schema elementFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation="CommonType.xsd"/>
+
+    <xs:element name="OTA_HotelAvailNotifRQ">
+        <xs:complexType>
+            <xs:complexContent mixed="false">
+                <xs:extension base="OTAMessage">
+                    <xs:sequence>
+                        <xs:element name="POS" type="POS"/>
+                        <xs:element name="AvailStatusMessages" type="AvailStatusMessages"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="AvailStatusMessages">
+        <xs:sequence>
+            <xs:element name="AvailStatusMessage" type="AvailStatusMessage" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="HotelCode" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType name="AvailStatusMessage">
+        <xs:sequence>
+            <xs:element name="StatusApplicationControl" type="StatusApplicationControl"/>
+            <xs:element name="RestrictionStatus" type="RestrictionStatus"/>
+            <xs:element name="LengthsOfStay" type="LengthsOfStay"/>
+        </xs:sequence>
+        <xs:attribute name="BookingLimitMessageType" type="xs:string"/>
+        <xs:attribute name="BookingLimit" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="RestrictionStatus">
+        <xs:attribute name="Restriction" type="Restriction"/>
+        <xs:attribute name="Status" type="Status"/>
+    </xs:complexType>
+
+    <xs:simpleType name="Restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Master"/>
+            <xs:enumeration value="Arrival"/>
+            <xs:enumeration value="Departure"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Status">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Close"/>
+            <xs:enumeration value="Open"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="LengthsOfStay">
+        <xs:sequence>
+            <xs:element name="LengthofStay" type="LengthofStay" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LengthofStay">
+        <xs:attribute name="MinMaxMesssageType" type="xs:string"/>
+        <xs:attribute name="TimeUnit" type="xs:string"/>
+        <xs:attribute name="Time" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>

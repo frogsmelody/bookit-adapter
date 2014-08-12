@@ -1,0 +1,136 @@
+{"cancelPolicy": "1N", "checkInLosRates": [
+    {
+        "checkIn": "2012-01-01",
+        "losRatesMap": {
+            "5": {
+                "inventory": 2,
+                "los": "5",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 4,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            "3": {
+                "inventory": 2,
+                "los": "3",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 2,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+                        "trebleRate": 399.26
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "checkIn": "2012-01-02",
+        "losRatesMap": {
+            "5": {
+                "inventory": 2,
+                "los": "5",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 4,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            "2": {
+                "inventory": 2,
+                "los": "2",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 1,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "checkIn": "2012-01-03",
+        "losRatesMap": {
+            "2": {
+                "inventory": 2,
+                "los": "2",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 1,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            "3": {
+                "inventory": 2,
+                "los": "3",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 2,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            "5": {
+                "inventory": 2,
+                "los": "5",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 2,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            },
+            "7": {
+                "inventory": 2,
+                "los": "7",
+                "rateAvails": [
+                    {
+                        "doubleRate": 385.25,
+                        "end": 2,
+                        "quadrupleRate": 412.27,
+                        "singleRate": 285.24,
+                        "start": 0,
+
+                        "trebleRate": 399.26
+                    }
+                ]
+            }
+        }
+    }
+], "currency": "USD", "hotelCode": "Hotel-A", "losRateChangeText": [], "ratePlanCode": "RatePlan-A", "roomTypeCode": "RoomType-A"}
