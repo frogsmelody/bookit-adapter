@@ -109,7 +109,6 @@ public class JobAction extends AbstractDMXAction {
         JobConfig jobConfig = load(systemConfigKeys.getKey());
         if (jobConfig != null && diffJobConfig(newConfig, jobConfig)) {
             jobConfig.setCronExpression(newConfig.buildStandardCronExpress());
-            jobConfig.setScheduleStatus(ScheduleStatus.RUNNING);
             //refresh db
             jobConfigRepository.update(jobConfig);
             //refreshJob

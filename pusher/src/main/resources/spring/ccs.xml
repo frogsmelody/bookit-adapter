@@ -15,7 +15,7 @@
 
     <bean id="hotelCache" class="com.derbysoft.ccs.core.MappingCache">
         <constructor-arg index="0" value="bookit_sync_hotel"/>
-        <constructor-arg index="1" value="com.derbysoft.bookit.common.ccs.Hotel"/>
+        <constructor-arg index="1" value="com.derbysoft.synchronizer.common.ccs.Hotel"/>
     </bean>
 
     <bean id="systemConfigMappingCache" class="com.derbysoft.ccs.core.MappingCache">

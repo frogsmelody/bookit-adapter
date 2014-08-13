@@ -1,6 +1,5 @@
 package com.derbysoft.bookit.push.web.service;
 
-import com.derbysoft.bookit.common.commons.DateTimeUtils;
 import com.derbysoft.bookit.common.repository.impl.DetachedCriteriaSupport;
 import com.derbysoft.bookit.push.commons.models.RateChangePushLogCondition;
 import com.derbysoft.bookit.push.domain.RateChangePushLog;
@@ -29,7 +28,9 @@ public class RateChangePushLogService extends DetachedCriteriaSupport {
         eq(detachedCriteria, "hotelCode", condition.getHotelCode());
         eq(detachedCriteria, "ratePlanCode", condition.getRatePlanCode());
         eq(detachedCriteria, "roomTypeCode", condition.getRoomTypeCode());
-        eq(detachedCriteria, "changeType", ChangeType.valueOf(condition.getChangeType()));
+        if (StringUtils.isNotBlank(condition.getChangeType())) {
+            detachedCriteria.add(Restrictions.eq("changeType", ChangeType.valueOf(condition.getChangeType())));
+        }
         if (StringUtils.isNotBlank(condition.getError())) {
             eq(detachedCriteria, "error", Boolean.valueOf(condition.getError()));
         }
